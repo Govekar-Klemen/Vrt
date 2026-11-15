@@ -1,7 +1,7 @@
 {
   "name": "Vrt",
   "short_name": "Vrt",
-  "description": "Offline garden planting planner",
+  "description": "Načrtovanje in evidenca zasaditev na vrtu brez povezave",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -26,5 +26,6 @@
       "type": "image/svg+xml",
       "purpose": "any"
     }
-  ]
+  ],
+  "lang": "sl"
 }
