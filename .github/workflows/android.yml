@@ -36,7 +36,12 @@ jobs:
         run: |
           npx cap add android
           npx cap sync android
-
+          
+      - name: Generate Vrt Android icons
+        run: |
+          python3 -m pip install Pillow
+          python3 scripts/make_android_icons.py
+          
       - name: Build APK
         run: |
           cd android
