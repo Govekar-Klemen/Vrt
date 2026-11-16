@@ -1,0 +1,9 @@
+{
+  "appId": "si.vrt.garden",
+  "appName": "Vrt",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}

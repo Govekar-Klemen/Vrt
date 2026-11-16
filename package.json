@@ -1,0 +1,17 @@
+{
+  "name": "vrt-offline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vrt offline Android garden planner",
+  "scripts": {
+    "android:sync": "cap sync android",
+    "android:build": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/core": "7.4.4",
+    "@capacitor/android": "7.4.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.4"
+  }
+}
